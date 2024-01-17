@@ -1,0 +1,13 @@
+.container {
+  padding: 1.1rem 1.6rem;
+}
+
+.go-back {
+  margin: 1.2rem 0;
+  width: 100%;
+}
+
+.go-back i {
+  color: #41AF64;
+  font-size: 1.05rem;
+}
