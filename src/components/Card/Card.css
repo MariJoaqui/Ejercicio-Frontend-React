@@ -1,0 +1,16 @@
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.212);
+  margin-top: 1.7rem;
+  padding: 1.5rem 1.2rem;
+}
+
+.rating {
+  flex-direction: column;
+}
+
+.button-rating {
+  background: #41AF64;
+  height: 1rem;
+  width: 1rem;
+}

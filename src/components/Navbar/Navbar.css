@@ -1,20 +1,9 @@
-.spaces {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-}
-  
-.navbar div {
-  text-align: center;
-  text-decoration: none;
-}
-
 .left-section i {
   font-size: 2rem;
 }
-  
-.center-section {
-  flex-grow: 1;
+
+.center-section h1 {
+  margin-left: 12rem;
 }
 
 .right-section i {
@@ -24,5 +13,5 @@
 
 .right-section h4 {
   font-size: 1.1rem;
-  width: 8rem;
+  width: 7.1rem;
 }
