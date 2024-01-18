@@ -1,7 +1,9 @@
+/* Global */
 .container {
   padding: 1.1rem 1.6rem;
 }
 
+/* Go back */
 .go-back {
   margin: 1.2rem 0;
   width: 100%;
@@ -12,6 +14,31 @@
   font-size: 1.05rem;
 }
 
+/* Information */
+.left-section,
+.right-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-section p {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.center-section p {
+  font-size: 1.3rem;
+}
+
+.right-section {
+  text-align: right;
+}
+
+.right-section p {
+  font-size: 0.9rem;
+}
+
+/* Center buttons */
 .center-buttons {
   text-align: center;
 }
