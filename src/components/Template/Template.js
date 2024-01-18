@@ -19,7 +19,7 @@ function Template( props ) {
       <Information />
       
       <div className='center-buttons'>
-        <button>Indicadores</button>
+        
         <button>Entregables</button>
         <button>Funciones</button>
         <button>Tareas</button>
