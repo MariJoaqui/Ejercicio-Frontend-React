@@ -40,5 +40,6 @@
 
 /* Center buttons */
 .center-buttons {
+  margin-top: 1rem;
   text-align: center;
 }
