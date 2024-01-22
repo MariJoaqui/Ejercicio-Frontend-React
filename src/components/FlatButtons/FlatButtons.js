@@ -13,7 +13,7 @@ function FlatButtons({ data, isActive, onClick }) {
       className='flat-button' 
       style={ buttonStyle } 
       onClick={ onClick }>
-      {data.title}
+      { data.title }
     </button>
   );
 }

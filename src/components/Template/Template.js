@@ -15,6 +15,7 @@ function Template( props ) {
   // Se coloca el id del botón que se quiere que esté activo al cargar la página al inicio
   const [ activeButton, setActiveButton ] = useState(3);
 
+  // Se le asigna el estado de activo al botón que se da click según su índice
   const handleButtonClick = ( index ) => {
     setActiveButton( index );
   };
