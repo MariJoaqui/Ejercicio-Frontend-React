@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Template.css';
 
 // Utils
@@ -12,6 +12,13 @@ import FlatButtons from '../FlatButtons/FlatButtons.js';
 import Navbar from '../Navbar/Navbar';
 
 function Template( props ) {
+  // Se coloca el id del botón que se quiere que esté activo al cargar la página al inicio
+  const [ activeButton, setActiveButton ] = useState(3);
+
+  const handleButtonClick = ( index ) => {
+    setActiveButton( index );
+  };
+
   return (
     <div className='container'>
 
@@ -45,8 +52,13 @@ function Template( props ) {
       {/* Botones centrales */}
       <div className='center-buttons'>
         {
-          flatButtons.map(( data, index ) => (
-            <FlatButtons data={ data } key={ index } />
+          flatButtons.map(( data ) => (
+            <FlatButtons
+              data={ data }
+              key={ data.id }
+              isActive={ data.id === activeButton }
+              onClick={ () => handleButtonClick( data.id ) }
+            />
           ))
         }
       </div>

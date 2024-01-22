@@ -13,7 +13,7 @@ const flatButtons = [
   },
   { 
     id: 4,
-    title: 'Tareas'
+    title: 'Acciones'
   },
   { 
     id: 5,
