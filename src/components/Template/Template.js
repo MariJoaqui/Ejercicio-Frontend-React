@@ -1,10 +1,14 @@
 import React from 'react';
 import './Template.css';
+
+// Utils
 import cardsInfo from '../../utils/card-info.js';
+import flatButtons from '../../utils/flat-buttons.js';
 
 // Components
 import Button from '../Button/Button';
 import Card from '../Card/Card';
+import FlatButtons from '../FlatButtons/FlatButtons.js';
 import Navbar from '../Navbar/Navbar';
 
 function Template( props ) {
@@ -33,18 +37,18 @@ function Template( props ) {
           <p>30/06/2023 a las 3:40 am</p>
           <div>
             <Button title='Editar Rol' />
-            <Button title='Terminar Mentoría' />
+            <Button title='Siguiente' />
           </div>
         </div>
       </div>
       
       {/* Botones centrales */}
       <div className='center-buttons'>
-        <button>Indicadores</button>
-        <button>Entregables</button>
-        <button>Funciones</button>
-        <button>Tareas</button>
-        <button>Notas</button>
+        {
+          flatButtons.map(( data, index ) => (
+            <FlatButtons data={ data } key={ index } />
+          ))
+        }
       </div>
 
       {/* Cartas */}

@@ -1,11 +1,11 @@
 import React from 'react';
 import './FlatButtons.css';
 
-function FlatButtons( props ) {
+function FlatButtons({ data }) {
   return (
-    <div className='container'>
-
-    </div>
+    <button className='flat-button'>
+      { data.title }
+    </button>
   );
 }
 
