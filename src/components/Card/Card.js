@@ -1,10 +1,10 @@
 import React from 'react';
 import './Card.css';
 
-function Card( props ) {
+function Card({ data }) {
   return (
     <div className='card display-flex spaces'>
-      <h4>Función número 1</h4>
+      <h4>{ data.title }</h4>
       <div className='display-flex rating'>
         <p>Conoce la teoría</p>
         <div className='display-flex spaces'>

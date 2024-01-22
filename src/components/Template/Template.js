@@ -1,5 +1,6 @@
 import React from 'react';
 import './Template.css';
+import cardsInfo from '../../utils/card-info.js';
 
 // Components
 import Button from '../Button/Button';
@@ -46,10 +47,12 @@ function Template( props ) {
         <button>Notas</button>
       </div>
 
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      {/* Cartas */}
+      {
+        cardsInfo.map(( card, index ) => (
+          <Card data={ card } key={ index } />
+        ))
+      }
     </div>
   );
 }
