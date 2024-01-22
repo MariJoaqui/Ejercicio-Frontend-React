@@ -10,7 +10,17 @@
 }
 
 .button-rating {
-  background: #41AF64;
+  background: #EAF4EE;
+  cursor: pointer;
   height: 1rem;
+  margin: 0.3rem 0 0 1rem;
   width: 1rem;
+}
+
+.rating p {
+  text-align: right;
+}
+
+.button-rating.active {
+  background: #41AF64;
 }
