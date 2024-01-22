@@ -30,7 +30,7 @@ function Card({ data }) {
       <h4>{ data.title }</h4>
       <div className='display-flex rating'>
         <p>{ getRatingText() }</p>
-        <div className='display-flex spaces'>
+        <div className='display-flex'>
           {
             [...Array( 5 )].map((_, index) => (
               <div
