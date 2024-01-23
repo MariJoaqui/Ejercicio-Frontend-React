@@ -8,6 +8,7 @@ function Card({ data }) {
     setRating( index + 1 );
   };
 
+  // Función para obtener el texto
   const getRatingText = () => {
     switch ( rating ) {
       case 1:
@@ -29,9 +30,11 @@ function Card({ data }) {
     <div className='card display-flex spaces'>
       <h4>{ data.title }</h4>
       <div className='display-flex rating'>
+        {/* Se obtiene el texto */}
         <p>{ getRatingText() }</p>
         <div className='display-flex'>
           {
+            // Se usa map para iterar sobre los botones y asignarles la clase de activo
             [...Array( 5 )].map((_, index) => (
               <div
                 key={ index }
