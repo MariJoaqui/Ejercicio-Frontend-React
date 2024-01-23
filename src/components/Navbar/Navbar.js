@@ -14,7 +14,6 @@ function Navbar( props ) {
         <div className='spaces'>
           <i className='fa-regular fa-bell'></i>
           <i className='fa-regular fa-moon'></i>
-          <i className='fa-solid fa-ellipsis-vertical display-none'></i>
           <h4>Cerrar sesión</h4>
         </div>
       </div>

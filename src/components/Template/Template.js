@@ -32,7 +32,7 @@ function Template( props ) {
       </div>
 
       {/* Seción de información */}
-      <div className='Information spaces'>
+      <div className='information spaces'>
         <div className='left-section'>
           <p>Mentoría / Mateo De la Torre</p>
           <p>ADMINISTRACIÓN</p>
