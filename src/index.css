@@ -17,6 +17,10 @@ code {
   display: flex;
 }
 
+.display-none {
+  display: none;
+}
+
 .spaces {
   align-items: center;
   display: flex;
