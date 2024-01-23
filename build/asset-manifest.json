@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Ejercicio-Frontend-React/build/static/css/main.58006d31.css",
+    "main.js": "/Ejercicio-Frontend-React/build/static/js/main.432adc7c.js",
+    "static/js/787.6172041b.chunk.js": "/Ejercicio-Frontend-React/build/static/js/787.6172041b.chunk.js",
+    "index.html": "/Ejercicio-Frontend-React/build/index.html",
+    "main.58006d31.css.map": "/Ejercicio-Frontend-React/build/static/css/main.58006d31.css.map",
+    "main.432adc7c.js.map": "/Ejercicio-Frontend-React/build/static/js/main.432adc7c.js.map",
+    "787.6172041b.chunk.js.map": "/Ejercicio-Frontend-React/build/static/js/787.6172041b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58006d31.css",
+    "static/js/main.432adc7c.js"
+  ]
+}
